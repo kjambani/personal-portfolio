@@ -1,16 +1,4 @@
-const hamburger = document.querySelector('.hamburger');
-const navLinks = document.querySelector('.nav-links');
-
-hamburger.addEventListener('click', () => {
-  navLinks.classList.toggle('active');
-});
-
-document.querySelectorAll('.nav-links a').forEach(link => {
-  link.addEventListener('click', () => {
-    navLinks.classList.remove('active');
-  });
-});
-
+// ===== ROLLING TEXT TYPING EFFECT =====
 const titles = ['Software Engineer', 'Machine Learning Engineer', 'Gen AI Engineer'];
 const el = document.getElementById('rolling-text');
 let titleIndex = 0;
@@ -19,7 +7,6 @@ let isDeleting = false;
 
 function typeEffect() {
   const current = titles[titleIndex];
-
   if (!isDeleting) {
     el.textContent = current.slice(0, charIndex++);
     if (charIndex > current.length) {
@@ -41,4 +28,23 @@ function typeEffect() {
   }
 }
 
-typeEffect();
+if (el) typeEffect();
+
+// ===== STAGGERED SCROLL REVEAL =====
+const cards = document.querySelectorAll('.bento-card:not(.card-hero)');
+
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      const index = Array.from(cards).indexOf(entry.target);
+      entry.target.style.transitionDelay = `${index * 0.1}s`;
+      entry.target.classList.add('active');
+      observer.unobserve(entry.target);
+    }
+  });
+}, { threshold: 0.15 });
+
+cards.forEach(card => {
+  card.classList.add('reveal');
+  observer.observe(card);
+});
