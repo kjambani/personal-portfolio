@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kamlesh Jambani | Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+  <nav>
+    <div class="nav-container">
+      <a href="#" class="logo">KJ</a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="Profile.pdf" target="_blank" class="nav-resume-link"><i class="fas fa-file-pdf"></i> Resume</a>
+        </li>
+      </ul>
+      <div class="hamburger">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </nav>
+
+  <section id="hero">
+    <div class="hero-content">
+      <div class="hero-image-wrapper">
+        <div class="hero-image">
+          <img src="profile.jpeg" alt="Kamlesh Jambani">
+        </div>
+      </div>
+      <div class="hero-text">
+        <h1 class="anim-fade-up">Kamlesh Jambani</h1>
+        <p class="subtitle anim-fade-up anim-delay-1"><span id="rolling-text" class="rolling-text"></span><span
+            class="cursor">|</span></p>
+        <div class="hero-actions anim-fade-up anim-delay-3">
+          <a href="https://www.linkedin.com/in/kamleshjambani-992835158" target="_blank" class="btn btn-primary"><i
+              class="fab fa-linkedin"></i> LinkedIn</a>
+          <a href="https://github.com/kamleshjambani" target="_blank" class="btn btn-outline"><i
+              class="fab fa-github"></i> GitHub</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <p class="about-text">
+        I’m a Software Engineer who thrives at the intersection of robust backend systems and intelligent automation.
+        After earning my MSc in Data Analytics with 1:1 Honours from the University of Galway and spending two years at
+        Merkle , I’ve learned how to build for reliability while staying on the cutting edge. My professional toolkit
+        spans from Java Spring Boot microservices to AWS-integrated Node.js servers that handle over 10k records a week.
+        I take pride in making things run smoother—like the Python automation I built that cut manual data tasks by 70%.
+        Beyond the code, I’ve also mentored over 60 students in advanced Java and Python as a Teaching Assistant.
+        Lately, I’ve been focused on the world of MLOps and Gen-AI. I’ve built end-to-end projects like RAG-based search
+        engines using agentic orchestration with Claude and researched Reinforcement Learning frameworks that boosted
+        trading decision win rates by 6%. I’m a huge advocate for using Gen-AI tools to build and debug , and I’m
+        currently looking for my next role in Software, MLOps, or Gen-AI Engineering </p>
+    </div>
+  </section>
+
+  <section id="experience">
+    <div class="container">
+      <h2 class="section-title">Experience</h2>
+
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <h3>Teaching Assistant</h3>
+              <span class="company">University of Galway School of Computer Science</span>
+              <span class="date">Oct 2024 - Apr 2025</span>
+            </div>
+            <div class="tech-stack">
+              <span class="tech-pill">Python</span>
+              <span class="tech-pill">Java</span>
+              <span class="tech-pill">Teaching</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <h3>Associate Software Developer</h3>
+              <span class="company">Merkle</span>
+              <span class="date">Jul 2021 - Jul 2023</span>
+            </div>
+            <div class="tech-stack">
+              <span class="tech-pill">Node.js</span>
+              <span class="tech-pill">AWS Lambda</span>
+              <span class="tech-pill">Python</span>
+              <span class="tech-pill">MySQL</span>
+              <span class="tech-pill">AEM</span>
+              <span class="tech-pill">OSGi</span>
+              <span class="tech-pill">JUnit</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <h3>Web Development Intern</h3>
+              <span class="company">Success Mantra Foundation</span>
+              <span class="date">Aug 2020 - Oct 2020</span>
+            </div>
+            <div class="tech-stack">
+              <span class="tech-pill">HTML5</span>
+              <span class="tech-pill">CSS3</span>
+              <span class="tech-pill">JavaScript</span>
+              <span class="tech-pill">REST APIs</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <h3>Marketing Volunteer</h3>
+              <span class="company">IETE</span>
+              <span class="date">Jan 2018 - Mar 2018</span>
+            </div>
+            <div class="tech-stack">
+              <span class="tech-pill">Marketing</span>
+              <span class="tech-pill">Event Coordination</span>
+              <span class="tech-pill">Communication</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="container">
+      <h2 class="section-title">Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="project-icon"><i class="fas fa-robot"></i></div>
+          <h3>ML Model Pipeline</h3>
+          <p>End-to-end machine learning pipeline for data preprocessing, model training, and deployment using Python
+            and scikit-learn.</p>
+          <div class="project-links">
+            <a href="https://github.com/kjambani/Mlops-end" target="_blank"><i class="fab fa-github"></i> Code</a>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-icon"><i class="fas fa-chart-bar"></i></div>
+          <h3>Machine Learning-Based-Stock-Predictions</h3>
+          <p>An investigation into whether geometric tools like Gann Squares can improve the accuracy of ML-based stock market predictions.</p>
+          <div class="project-links">
+            <a href="https://github.com/kjambani/Capstone_2025_Assessing-Gann-Square-Effectiveness-in-Machine-Learning-Based-Stock-Predictions" target="_blank"><i class="fab fa-github"></i> Code</a>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-icon"><i class="fas fa-cloud"></i></div>
+          <h3>Job Application Agent</h3>
+          <p>Gen-AI Agent that automates job searching, application and follow-ups using LLMs </p>
+          <div class="project-links">
+            <a href="https://github.com/kjambani/jobb-application-agent" target="_blank"><i class="fab fa-github"></i> Code</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="container">
+      <h2 class="section-title">Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <i class="fas fa-brain"></i>
+          <h4>Machine Learning</h4>
+        </div>
+        <div class="skill-card">
+          <i class="fas fa-robot"></i>
+          <h4>Data Science</h4>
+        </div>
+        <div class="skill-card">
+          <i class="fab fa-python"></i>
+          <h4>Python</h4>
+        </div>
+        <div class="skill-card">
+          <i class="fab fa-js"></i>
+          <h4>JavaScript</h4>
+        </div>
+        <div class="skill-card">
+          <i class="fab fa-node-js"></i>
+          <h4>Node.js</h4>
+        </div>
+        <div class="skill-card">
+          <i class="fas fa-database"></i>
+          <h4>SQL / MySQL</h4>
+        </div>
+        <div class="skill-card">
+          <i class="fab fa-aws"></i>
+          <h4>AWS</h4>
+        </div>
+        <div class="skill-card">
+          <i class="fas fa-chart-line"></i>
+          <h4>Data Analysis</h4>
+        </div>
+        <div class="skill-card">
+          <i class="fas fa-graduation-cap"></i>
+          <h4>Mentoring</h4>
+        </div>
+        <div class="skill-card">
+          <i class="fas fa-lightbulb"></i>
+          <h4>Knowledge Synthesis</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="education">
+    <div class="container">
+      <h2 class="section-title">Education</h2>
+      <div class="edu-grid">
+        <div class="edu-card">
+          <h3>Masters in Computer Science, Data Analytics</h3>
+          <p class="edu-institute">University of Galway</p>
+          <p class="edu-date">Sep 2024 - Oct 2025</p>
+        </div>
+        <div class="edu-card">
+          <h3>Bachelor of Engineering, Information Technology</h3>
+          <p class="edu-institute">Thadomal Shahani Engineering College</p>
+          <p class="edu-date">Aug 2017 - Jun 2021</p>
+        </div>
+        <div class="edu-card">
+          <h3>Junior College, Science</h3>
+          <p class="edu-institute">SMT. CHM College, Ulhasnagar</p>
+          <p class="edu-date">Jun 2015 - Feb 2017</p>
+        </div>
+        <div class="edu-card">
+          <h3>Matriculation</h3>
+          <p class="edu-institute">Hare Krishna N.C.T Convent High School</p>
+          <p class="edu-date">Completed</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <h2 class="section-title">Get In Touch</h2>
+      <div class="contact-links">
+        <a href="tel:+353895185328" class="contact-item">
+          <i class="fas fa-phone"></i>
+          <span>+353 89 518 5328</span>
+        </a>
+        <a href="tel:+918830595872" class="contact-item">
+          <i class="fas fa-phone"></i>
+          <span>+91 8830595872</span>
+        </a>
+        <a href="mailto:kamlesh.jambani@gmail.com" class="contact-item">
+          <i class="fas fa-envelope"></i>
+          <span>kamlesh.jambani@gmail.com</span>
+        </a>
+        <a href="https://www.linkedin.com/in/kamleshjambani-992835158" target="_blank" class="contact-item">
+          <i class="fab fa-linkedin"></i>
+          <span>LinkedIn</span>
+        </a>
+        <a href="https://github.com/kamleshjambani" target="_blank" class="contact-item">
+          <i class="fab fa-github"></i>
+          <span>GitHub</span>
+        </a>
+        <a href="Profile.pdf" target="_blank" class="contact-item">
+          <i class="fas fa-file-download"></i>
+          <span>Download Resume</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Kamlesh Jambani. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
