@@ -1,0 +1,14 @@
+{
+  "apiKey": "AIzaSyDu8zoHJZdAOLa7nv7xhB-KA0jA9vCPBuE",
+  "markers": {
+    "start": "<!-- AUTO:START -->",
+    "end": "<!-- AUTO:END -->"
+  },
+  "excludedPaths": [
+    "node_modules",
+    "dist",
+    ".git",
+    "package-lock.json",
+    "yarn.lock"
+  ]
+}

@@ -1,5 +1,5 @@
 # Kamlesh Jambani - Personal Portfolio
-
+<!-- AUTO:START -->
 Welcome to the repository for my personal portfolio website! This project showcases my skills, experience, and projects as a Software Engineer and Data Analyst with a passion for MLOps, Gen-AI, and backend development.
 
 ## 🌐 Live Website
@@ -29,7 +29,7 @@ I’m a Software Engineer who thrives at the intersection of robust backend syst
 *   **ML Model Pipeline:** End-to-end machine learning pipeline for data preprocessing, model training, and deployment.
 *   **Machine Learning-Based-Stock-Predictions:** Research on Gann Squares and ML-based stock market predictions.
 *   **Job Application Agent:** Gen-AI Agent that automates job searching, application, and follow-ups.
-
+<!-- AUTO:END -->
 ## 📫 Contact
 
 *   **Email:** kamlesh.jambani@gmail.com
